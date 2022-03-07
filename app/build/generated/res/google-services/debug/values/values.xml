@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">862849462723-g2egqtihddspjrs6sju95jpkfmajb0ob.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">862849462723</string>
+    <string name="google_api_key" translatable="false">AIzaSyBc_7t0MCJvWAQHljDNJkg7-04mB9lTQtY</string>
+    <string name="google_app_id" translatable="false">1:862849462723:android:9eab9aaa759841d77e0d76</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBc_7t0MCJvWAQHljDNJkg7-04mB9lTQtY</string>
+    <string name="google_storage_bucket" translatable="false">skylar-c0426.appspot.com</string>
+    <string name="project_id" translatable="false">skylar-c0426</string>
+</resources>

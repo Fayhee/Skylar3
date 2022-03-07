@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Skylar</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="motto">Welcome, let\'s start learning and earning</string>
+    <string name="the_name">Name</string>
+    <string name="the_email">Email</string>
+    <string name="the_password">Password</string>
+    <string name="the_number">Phone number</string>
+    <string name="agreement">I agree to the terms and conditions</string>
+    <string name="remember">Remember me</string>
+    <string name="welcome">Welcome!</string>
+    <string name="start">Start</string>
+    <string name="oldUser">Already have an account? Login</string>
+    <string name="newUser">Don\'t have an account? Register</string>
+    <string name="menu_hello">Hello</string>
+    <string name="arinze"> </string>
+    <string name="search_elements">Search elements</string>
+    <string name="trending">Trending</string>
+    <string name="trend_text">Check out the latest job and global opportunities for university students</string>
+    <string name="home">home</string>
+    <string name="community">community</string>
+    <string name="notification">Notification</string>
+    <string name="setting">Setting</string>
+    <string name="student">Student</string>
+    <string name="arinze_obumselu">Arinze Obumselu</string>
+    <string name="arinzeobumselu_gmail_com">Arinzeobumselu@gmail.com</string>
+    <string name="view_wallet">View Wallet</string>
+    <string name="account_1">Account 1</string>
+    <string name="apply_now">Apply Now</string>
+
+    <string-array name="bread_choice">
+        <item>XLM</item>
+        <item>XLM</item>
+    </string-array>
+
+<string name="tab_title_1">Private Key</string>
+    <string name="tab_1_button_text">Generate</string>
+    <string name="tab_1_private_key">Private Key:</string>
+    <string name="tab_1_public_key">Public Key:</string>
+
+    <string name="tab_title_2">Account Balance</string>
+    <string name="tab_2_button">Get account balance</string>
+    <string name="tab_2_account_id">Account ID</string>
+
+    <string name="tab_title_3">Crypto Transfer</string>
+    <string name="tab_3_recipient">Recipient AccountID</string>
+    <string name="tab_3_amount">Amount to Send</string>
+    <string name="tab_3_send">Send Hbar</string>
+
+    <!-- NOTE: These strings must be set to real values for the example to work -->
+    <string name="operator_id">0.0.30857731</string>
+    <string name="operator_key">302e020100300506032b657004220420a00c0385a9d91c45893d7e042e99a0770bbbda4ad2ae82a191bd25042a0ebb93</string>
+</resources>

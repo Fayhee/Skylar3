@@ -1,0 +1,365 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.skylar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:8:5-65
+13-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:8:22-62
+14
+15    <uses-feature android:name="android.hardware.camera.ar" />
+15-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:10:5-63
+15-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:10:19-60
+16    <uses-feature
+16-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:11:5-13:35
+17        android:glEsVersion="0x00030000"
+17-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:12:9-41
+18        android:required="true" />
+18-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:13:9-32
+19
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:24:5-68
+20-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:24:22-65
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+22
+23    <queries>
+23-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:29:5-31:15
+24        <package android:name="com.google.ar.core" />
+24-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:30:9-54
+24-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:30:18-51
+25    </queries>
+26
+27    <application
+27-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:15:5-47:19
+28        android:allowBackup="true"
+28-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:16:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.5.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\de4504a44ff1c2eebbafc7766d076565\core-1.5.0\AndroidManifest.xml:24:18-86
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:17:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:18:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:19:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:20:9-35
+35        android:theme="@style/Theme.Skylar" >
+35-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:21:9-44
+36        <activity android:name="com.example.skylar.OpportunityActivity" />
+36-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:22:9-66
+36-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:22:19-54
+37        <activity android:name="com.example.skylar.learn.CourseDetailActivity" />
+37-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:23:9-64
+37-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:23:19-61
+38        <activity android:name="com.example.skylar.learn.CourseActivity" />
+38-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:24:9-58
+38-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:24:19-55
+39        <activity android:name="com.example.skylar.learn.AugmentedRealityActivity" />
+39-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:25:9-68
+39-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:25:19-65
+40        <activity android:name="com.example.skylar.learn.QuizActivity" />
+40-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:26:9-56
+40-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:26:19-53
+41        <activity android:name="com.example.skylar.earn.SendActivity" />
+41-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:27:9-55
+41-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:27:19-52
+42        <activity android:name="com.example.skylar.earn.CreateWalletActivity" />
+42-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:28:9-63
+42-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:28:19-60
+43        <activity android:name="com.example.skylar.MainActivity" >
+43-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:29:9-35:20
+43-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:29:19-47
+44            <intent-filter>
+44-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:30:13-34:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:31:17-69
+45-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:31:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:33:17-77
+47-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:33:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.example.skylar.SignInActivity" />
+50-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:36:9-52
+50-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:36:19-49
+51        <activity android:name="com.example.skylar.ProfileActivity" />
+51-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:37:9-53
+51-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:37:19-50
+52        <activity android:name="com.example.skylar.earn.AccountActivity" />
+52-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:38:9-58
+52-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:38:19-55
+53        <activity android:name="com.example.skylar.earn.CreateAccountActivity" />
+53-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:39:9-64
+53-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:39:19-61
+54        <activity android:name="com.example.skylar.earn.EarnActivity" />
+54-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:40:9-55
+54-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:40:19-52
+55        <activity android:name="com.example.skylar.MainMenuActivity" />
+55-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:41:9-54
+55-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:41:19-51
+56        <activity android:name="com.example.skylar.SignUpActivity" />
+56-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:42:9-52
+56-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:42:19-49
+57
+58        <meta-data
+58-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:44:9-46:40
+59            android:name="com.google.ar.core"
+59-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:45:13-46
+60            android:value="required" />
+60-->C:\Users\patmekury\AndroidStudioProjects\Skylar3\app\src\main\AndroidManifest.xml:46:13-37
+61
+62        <provider
+62-->[com.squareup.picasso:picasso:2.71828] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\9b5199654fcffb301130442c8368bf24\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+63            android:name="com.squareup.picasso.PicassoProvider"
+63-->[com.squareup.picasso:picasso:2.71828] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\9b5199654fcffb301130442c8368bf24\picasso-2.71828\AndroidManifest.xml:9:13-64
+64            android:authorities="com.example.skylar.com.squareup.picasso"
+64-->[com.squareup.picasso:picasso:2.71828] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\9b5199654fcffb301130442c8368bf24\picasso-2.71828\AndroidManifest.xml:10:13-72
+65            android:exported="false" />
+65-->[com.squareup.picasso:picasso:2.71828] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\9b5199654fcffb301130442c8368bf24\picasso-2.71828\AndroidManifest.xml:11:13-37
+66
+67        <activity
+67-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+68            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+68-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+69            android:excludeFromRecents="true"
+69-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+72        <!--
+73            Service handling Google Sign-In user revocation. For apps that do not integrate with
+74            Google Sign-In, this service will never be started.
+75        -->
+76        <service
+76-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+77            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+77-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+78            android:exported="true"
+78-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+79            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+79-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+80            android:visibleToInstantApps="true" />
+80-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\7b6a2ac2a1731610b76a743f5b43d693\play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+81
+82        <activity
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+83            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+84            android:excludeFromRecents="true"
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+85            android:exported="true"
+85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+86            android:launchMode="singleTask"
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+88            <intent-filter>
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+93
+94                <data
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+95                    android:host="firebase.auth"
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+96                    android:path="/"
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+97                    android:scheme="genericidp" />
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+101            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+102            android:excludeFromRecents="true"
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+103            android:exported="true"
+103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+104            android:launchMode="singleTask"
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+106            <intent-filter>
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+107                <action android:name="android.intent.action.VIEW" />
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+110                <category android:name="android.intent.category.BROWSABLE" />
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+111
+112                <data
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+113                    android:host="firebase.auth"
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+114                    android:path="/"
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+115                    android:scheme="recaptcha" />
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+116            </intent-filter>
+117        </activity>
+118
+119        <service
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+120            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+121            android:enabled="true"
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+122            android:exported="false" >
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+123            <intent-filter>
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+124                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+127            </intent-filter>
+128        </service>
+129        <service
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+130            android:name="com.google.firebase.components.ComponentDiscoveryService"
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+131            android:directBootAware="true"
+131-->[com.google.firebase:firebase-common:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+132            android:exported="false" >
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+133            <meta-data
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+134                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-database:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+137                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+137-->[com.google.firebase:firebase-database:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-database:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+139            <meta-data
+139-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+140                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+140-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\693a3366ee531a6a1802b2ca4b396e3f\play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\1251f431fa1cdcc135e150ea6d84a29a\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+143                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+143-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\1251f431fa1cdcc135e150ea6d84a29a\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\1251f431fa1cdcc135e150ea6d84a29a\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+145        </service>
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+149            android:authorities="com.example.skylar.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:20.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+158
+159        <receiver
+159-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+160            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+160-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+161            android:enabled="true"
+161-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+162            android:exported="false" >
+162-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+163        </receiver>
+164
+165        <service
+165-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+166            android:name="com.google.android.gms.measurement.AppMeasurementService"
+166-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+167            android:enabled="true"
+167-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+168            android:exported="false" />
+168-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+169        <service
+169-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+170            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+170-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+171            android:enabled="true"
+171-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+172            android:exported="false"
+172-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+173            android:permission="android.permission.BIND_JOB_SERVICE" />
+173-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e2f8e045e2bfa31a157ea23b9c213426\play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+174
+175        <meta-data
+175-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\764e9288f3b93c2b44348b5fa131e21f\play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+176            android:name="com.google.android.gms.version"
+176-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\764e9288f3b93c2b44348b5fa131e21f\play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+177            android:value="@integer/google_play_services_version" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+177-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\764e9288f3b93c2b44348b5fa131e21f\play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+178        <meta-data
+178-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:36:9-38:41
+179            android:name="com.google.ar.core.min_apk_version"
+179-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:37:13-62
+180            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+180-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:38:13-38
+181        <activity
+181-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:40:9-46:80
+182            android:name="com.google.ar.core.InstallActivity"
+182-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:41:13-62
+183            android:configChanges="keyboardHidden|orientation|screenSize"
+183-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:42:13-74
+184            android:excludeFromRecents="true"
+184-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:43:13-46
+185            android:exported="false"
+185-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:44:13-37
+186            android:launchMode="singleTop"
+186-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:45:13-43
+187            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+187-->[com.google.ar:core:1.25.0] C:\Users\patmekury\.gradle\caches\transforms-2\files-2.1\e8e2df17b18393e205d86f5993757722\core-1.25.0\AndroidManifest.xml:46:13-77
+188    </application>
+189
+190</manifest>
