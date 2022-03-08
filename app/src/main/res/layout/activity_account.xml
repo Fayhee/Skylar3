@@ -52,159 +52,160 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-
-            <TextView
-                android:id="@+id/account_number"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/account_1"
-                android:textColor="@color/black"
-                android:textSize="24sp" />
-
-            <TextView
-                android:id="@+id/dollar_balance"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="16dp"
-                android:text="$0.00"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
-            <TextView
-                android:id="@+id/text_key"
-                android:layout_width="120dp"
-                android:layout_height="25dp"
-                android:ellipsize="middle"
-                android:maxLines="1"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="24dp"
-                android:background="@drawable/rounded_text_corner"
-                android:gravity="center"
-                android:text="View wallet" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="51dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="24dp"
-                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:id="@+id/receive_layout"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-                    <ImageView
-                        android:id="@+id/receive_icon"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ic_download" />
 
                     <TextView
-                        android:id="@+id/receive_token"
+                        android:id="@+id/account_number"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="25dp"
                         android:layout_gravity="center_horizontal"
-                        android:text="Receive"
-                        android:textColor="@color/colorPrimary"
-                        android:textSize="16sp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/buy_layout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="24dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/buy_icon"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ic_wallet_outline" />
+                        android:text="@string/account_1"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
 
                     <TextView
-                        android:id="@+id/buy_token"
+                        android:id="@+id/dollar_balance"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="32dp"
                         android:layout_gravity="center_horizontal"
-                        android:text="Buy"
-                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="16dp"
+                        android:text="$0.00"
+                        android:textColor="@color/black"
                         android:textSize="16sp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/send_layout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="24dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/send_icon"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ic_left_up" />
 
                     <TextView
-                        android:id="@+id/send_token"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:id="@+id/text_key"
+                        android:layout_width="120dp"
+                        android:layout_height="25dp"
                         android:layout_gravity="center_horizontal"
-                        android:text="Send"
-                        android:textColor="@color/colorPrimary"
-                        android:textSize="16sp" />
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/rounded_text_corner"
+                        android:ellipsize="middle"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="0.0.30857744" />
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="24dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/receive_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/receive_icon"
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_download" />
+
+                            <TextView
+                                android:id="@+id/receive_token"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Receive"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/buy_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/buy_icon"
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_wallet_outline" />
+
+                            <TextView
+                                android:id="@+id/buy_token"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Buy"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/send_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/send_icon"
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_left_up" />
+
+                            <TextView
+                                android:id="@+id/send_token"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Send"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/swap_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/swap_icon"
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_swap" />
+
+                            <TextView
+                                android:id="@+id/swap_token"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Swap"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/currencies"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="48dp" />
                 </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/swap_layout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="24dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/swap_icon"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ic_swap" />
-
-                    <TextView
-                        android:id="@+id/swap_token"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="Swap"
-                        android:textColor="@color/colorPrimary"
-                        android:textSize="16sp" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/currencies"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="48dp"
-                />
-        </LinearLayout>
-
-            <ProgressBar
+                <ProgressBar
                 android:id="@+id/progress_check"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"

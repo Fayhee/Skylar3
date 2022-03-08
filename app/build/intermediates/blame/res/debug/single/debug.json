@@ -56,10 +56,6 @@
         "source": "C:\\Users\\PatMekury\\Documents\\java\\Skylar3\\app\\src\\main\\res\\layout\\activity_augmented_reality.xml"
     },
     {
-        "merged": "C:\\Users\\PatMekury\\Documents\\java\\Skylar3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_send.xml.flat",
-        "source": "C:\\Users\\PatMekury\\Documents\\java\\Skylar3\\app\\src\\main\\res\\layout\\activity_send.xml"
-    },
-    {
         "merged": "C:\\Users\\PatMekury\\Documents\\java\\Skylar3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_circle.xml.flat",
         "source": "C:\\Users\\PatMekury\\Documents\\java\\Skylar3\\app\\src\\main\\res\\drawable\\image_circle.xml"
     },

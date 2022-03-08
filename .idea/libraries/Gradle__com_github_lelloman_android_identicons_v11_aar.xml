@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.lelloman:android-identicons:v11@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37827690ef9aaf46641093402cb3bc56/android-identicons-v11/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37827690ef9aaf46641093402cb3bc56/android-identicons-v11/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37827690ef9aaf46641093402cb3bc56/android-identicons-v11/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862849462723",
+    "project_id": "skylar-c0426",
+    "storage_bucket": "skylar-c0426.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862849462723:android:9eab9aaa759841d77e0d76",
+        "android_client_info": {
+          "package_name": "com.example.skylar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862849462723-437pmciifouu1turtlf58rovbrgqc72l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skylar",
+            "certificate_hash": "652c7ee2e3499db762c0521cf1b3bab41e9fe064"
+          }
+        },
+        {
+          "client_id": "862849462723-g2egqtihddspjrs6sju95jpkfmajb0ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc_7t0MCJvWAQHljDNJkg7-04mB9lTQtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862849462723-g2egqtihddspjrs6sju95jpkfmajb0ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

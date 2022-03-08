@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gorisse.thomas.sceneform:core:1.19.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e6d29f04e862e8456764bbaddf7fd4b/core-1.19.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e6d29f04e862e8456764bbaddf7fd4b/core-1.19.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e6d29f04e862e8456764bbaddf7fd4b/core-1.19.5/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e6d29f04e862e8456764bbaddf7fd4b/core-1.19.5/jars/libs/libsceneform_runtime_schemas.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gorisse.thomas.sceneform/core/1.19.5/581d8daf8bece6cc7cdfc945734651d3afe149a/core-1.19.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gorisse.thomas.sceneform/core/1.19.5/66b71141d79052df8a96f36b8c231b49a06fa6e1/core-1.19.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

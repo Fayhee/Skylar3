@@ -2,18 +2,18 @@ package com.example.skylar.model;
 
 public  class UserInformation {
 
-    String email, name, password, number, publicKey;
+    String email, name, password, number, accountId;
 
 
     public UserInformation() {
     }
 
-    public UserInformation(String email, String name, String password, String number, String publicKey) {
+    public UserInformation(String email, String name, String password, String number, String accountId) {
         this.email = email;
         this.name = name;
         this.password = password;
         this.number = number;
-        this.publicKey = publicKey;
+        this.accountId = accountId;
 
     }
 
@@ -49,12 +49,12 @@ public  class UserInformation {
         this.number = number;
     }
 
-    public String getPublicKey() {
-        return publicKey;
+    public String getAccountId() {
+        return accountId;
     }
 
-    public void setPublicKey(String publicKey) {
-        this.publicKey = publicKey;
+    public void setAccountId(String accountId) {
+        this.accountId = accountId;
     }
 
 

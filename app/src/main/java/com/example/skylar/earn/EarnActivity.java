@@ -53,8 +53,8 @@ public class EarnActivity extends AppCompatActivity {
             public void onDataChange(@NonNull @NotNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot ds: dataSnapshot.getChildren()){
                     UserInformation information = new UserInformation();
-                    information.setPublicKey(ds.child(firebaseId).getValue(UserInformation.class).getPublicKey());
-                    String publicKey  = information.getPublicKey() ;
+                    information.setAccountId(ds.child(firebaseId).getValue(UserInformation.class).getAccountId());
+                    String accountId  = information.getAccountId() ;
 
                     Button btnCreate = findViewById(R.id.buttonCreate);
                     btnCreate.setOnClickListener(new View.OnClickListener() {
@@ -64,7 +64,7 @@ public class EarnActivity extends AppCompatActivity {
                             Intent intent;
 
                             try {
-                                if(publicKey.equals("nothing")){
+                                if(accountId.equals("nothing")){
                                     intent = new Intent(EarnActivity.this, CreateWalletActivity.class);
                                 }
                                 else {
@@ -73,7 +73,7 @@ public class EarnActivity extends AppCompatActivity {
                                 startActivity(intent);
                             }
                             catch(NullPointerException e) {
-                                System.out.println(publicKey);
+                                System.out.println(accountId);
                             }
 
                         }

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hedera.hashgraph:sdk-jdk7:2.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hedera.hashgraph/sdk-jdk7/2.9.0/17eba47080a5ed195ab9a23fb1d5428558ec3a0e/sdk-jdk7-2.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hedera.hashgraph/sdk-jdk7/2.9.0/c85ed594740cdf1fe77ce73e99ec5ddc27498196/sdk-jdk7-2.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hedera.hashgraph/sdk-jdk7/2.9.0/3e1bd79e0adbe03368c180a7e82c2b5feaa0296f/sdk-jdk7-2.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

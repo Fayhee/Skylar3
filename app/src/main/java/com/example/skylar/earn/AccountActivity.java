@@ -403,9 +403,8 @@ public class AccountActivity extends AppCompatActivity {
                             public void run() {
                                 try {
                                     AccountId receiver = AccountId.fromString(receiverAddress.getText().toString());
-                                    final AccountId operatorId = AccountId.fromString(String.valueOf(R.string.operator_id));
                                     new TransferTransaction()
-                                            .addHbarTransfer(operatorId, amount)
+                                            .addHbarTransfer(id, amount)
                                             .addHbarTransfer(receiver, amount)
                                             .execute(client);
 

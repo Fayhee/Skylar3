@@ -4,7 +4,6 @@ package com.example.skylar;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -16,7 +15,6 @@ import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.text.style.ForegroundColorSpan;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,7 +22,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.skylar.model.UserInformation;
-import androidx.annotation.NonNull;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -149,7 +146,7 @@ public class SignUpActivity extends AppCompatActivity {
                     userInformation.setPassword(password);
                     userInformation.setName(etname.getText().toString());
                     userInformation.setNumber(etnumber.getText().toString());
-                    userInformation.setPublicKey("nothing");
+                    userInformation.setAccountId("nothing");
 
 
 

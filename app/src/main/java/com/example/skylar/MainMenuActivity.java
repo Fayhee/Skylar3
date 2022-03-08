@@ -67,7 +67,7 @@ public class MainMenuActivity extends AppCompatActivity {
 
     public void earnClick(View view){
         LinearLayout linearLayout = findViewById(R.id.layoutEarn);
-        Intent intent = new Intent(MainMenuActivity.this, MainActivity2.class);
+        Intent intent = new Intent(MainMenuActivity.this, EarnActivity.class);
         startActivity(intent);
     }
 

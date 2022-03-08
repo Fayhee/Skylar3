@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.filament:gltfio-android:1.10.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b1a65417363a99bb574eadece335585/gltfio-android-1.10.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60efd209fd6de8d0493b0fada78edef8/gltfio-android-1.10.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60efd209fd6de8d0493b0fada78edef8/gltfio-android-1.10.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60efd209fd6de8d0493b0fada78edef8/gltfio-android-1.10.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.filament/gltfio-android/1.10.7/8121b1b3b164bcf2ec430aae21d7948515f0fd61/gltfio-android-1.10.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.filament/gltfio-android/1.10.7/c77bf331d118ee2493a176caaa2b425a0a84a4f2/gltfio-android-1.10.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

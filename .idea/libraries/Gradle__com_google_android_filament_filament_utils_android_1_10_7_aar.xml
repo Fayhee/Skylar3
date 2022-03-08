@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.filament:filament-utils-android:1.10.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b738ba9e9680081036e6c03f868a1854/filament-utils-android-1.10.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d51f469d89c71b3015272acf3c58f18d/filament-utils-android-1.10.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d51f469d89c71b3015272acf3c58f18d/filament-utils-android-1.10.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d51f469d89c71b3015272acf3c58f18d/filament-utils-android-1.10.7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.filament/filament-utils-android/1.10.7/c51b0f54d018ebf2cca0b0511da02244e12ca621/filament-utils-android-1.10.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.filament/filament-utils-android/1.10.7/a46c833ce2b09c4cbcdfbdb409a3b5d25bdabff/filament-utils-android-1.10.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
